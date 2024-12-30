@@ -104,6 +104,7 @@ for i, element in enumerate(models):
     
 #Load the Model
 model_name = 'XGB-Smote'
+#runid= "provide your MLflow runid"
 run_id ='96240d469b9d4ec997044be97e73c594'
 # Use the run_id in the start_run method
 with mlflow.start_run(run_id=run_id):
